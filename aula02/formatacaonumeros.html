@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  
+ body{
+
+    font: normal 10pt Arial;
+    background-color: #403f7c;
+ }
+    </style>
+</head>
+
+<body>
+       
+     <h1>CONSULTE SEU SALÁRIO </h1>
+    
+    <script>
+        
+            var salario = Number(prompt('qual o seu salário?'))
+            var desconto = Number(prompt('qual o seu desconto mensal?'))
+            var valor = salario - desconto
+
+            document.write(`o seu salário bruto é de ${valor.toLocaleString('pt-BR',{style: 'currency', currency: "BRL"})}`)
+    </script>
+</body>
+</html
