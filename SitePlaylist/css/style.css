@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    
+}
+
+h1{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    height: 700px;
+}
+
+.top-images,.botton-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+
+
+.container img {
+display: block;
+max-width: 100%;
+height: auto;
+
+}
+
+.top-images a {
+width: 100%;
+}
+
+.botton-images a { 
+    width: 100%;
+}
+
+.video {
+    font-style: italic; ;
+    text-align: center;
+    color: white;
+
+}
+
+.butonn {
+    text-align: center;
+}
